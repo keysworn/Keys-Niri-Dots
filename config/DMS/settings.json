@@ -3,7 +3,7 @@
   "customThemeFile": "",
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
-  "matugenTargetMonitor": "DP-2",
+  "matugenTargetMonitor": "DP-1",
   "popupTransparency": 1,
   "dockTransparency": 0.95,
   "widgetBackgroundColor": "sch",
