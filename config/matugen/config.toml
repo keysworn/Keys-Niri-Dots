@@ -7,7 +7,7 @@ output_path = "/home/key/.config/Vencord/themes/midnight-discord.css"
 [templates.pywalfox]
 input_path = '/home/key/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
-post_hook = 'pywalfox update'~/.dotfiles/config/matugen/templates/midnight-discord.css
+post_hook = "pywalfox update"
 
 [templates.nvim]
 input_path = "/home/key/.config/matugen/templates/nvim-matugen.lua"
