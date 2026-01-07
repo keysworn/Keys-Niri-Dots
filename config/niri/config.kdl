@@ -199,6 +199,13 @@ window-rule {
 }
 
 window-rule {
+    match app-id="kitty-menu"
+    open-floating true
+    default-column-width { fixed 555; }
+    default-window-height { fixed 231; }
+}
+
+window-rule {
     match app-id="discord"
     open-floating true
     default-column-width { fixed 990; }
