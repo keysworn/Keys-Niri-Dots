@@ -1,0 +1,1 @@
+code /home/key/.config/niri/config.kdl

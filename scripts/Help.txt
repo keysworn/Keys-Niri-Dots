@@ -1,0 +1,4 @@
+Menu management
+
+To add new scripts follow: 
+simply add another script in this folder and be sure to "sudo chmod +x" it

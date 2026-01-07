@@ -1,0 +1,1 @@
+code /home/key/scripts/kitty_menu.sh
