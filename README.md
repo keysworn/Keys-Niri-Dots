@@ -1,2 +1,2 @@
 # Keys-Niri-Dots
-My dotfiles for Niri (requires DankMaterialShell)
+My live updated dotfiles for Niri (requires DankMaterialShell)
