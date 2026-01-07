@@ -296,7 +296,7 @@
       "gothCornerRadiusValue": 12,
       "borderEnabled": true,
       "borderColor": "primary",
-      "borderOpacity": 0.02,
+      "borderOpacity": 0.04,
       "borderThickness": 2,
       "widgetOutlineEnabled": false,
       "widgetOutlineColor": "primary",
