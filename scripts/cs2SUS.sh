@@ -1,1 +1,0 @@
-cd /home/key/deadlocked && ./run.sh
