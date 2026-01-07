@@ -1,0 +1,4 @@
+*.swp
+*.bak
+.cache/
+node_modules/
