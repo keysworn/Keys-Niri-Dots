@@ -7,7 +7,6 @@ SCRIPTS=(
     "Manage Storage Space"
     "Manage Storage"
     "Manage Niri"
-    "CS2SUS"
     "Quit"
 )
 
@@ -32,10 +31,6 @@ case "$CHOICE" in
      "Manage Storage")
         echo "Managing Storage"
         ~/scripts/Partition.sh
-        ;;
-    "CS2SUS")
-        echo "HACKING CS2..."
-        ~/scripts/cs2SUS.sh
         ;;
     "Quit")
         echo "Exiting menu."
