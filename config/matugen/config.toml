@@ -9,6 +9,6 @@ input_path = '/home/key/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = "pywalfox update"
 
-[templates.nvim]
-input_path = "/home/key/.config/matugen/templates/nvim-matugen.lua"
-output_path = "/home/key/.config/nvim/lua/matugen_theme.lua"
+[templates.micro]
+input_path = '/home/key/.config/matugen/templates/micro.micro'
+output_path = '~/.config/micro/colorschemes/matugen.micro'
