@@ -297,7 +297,7 @@
       "borderEnabled": true,
       "borderColor": "primary",
       "borderOpacity": 1,
-      "borderThickness": 1,
+      "borderThickness": 2,
       "widgetOutlineEnabled": false,
       "widgetOutlineColor": "primary",
       "widgetOutlineOpacity": 1,
