@@ -12,3 +12,7 @@ post_hook = "pywalfox update"
 [templates.micro]
 input_path = '/home/key/.config/matugen/templates/micro.micro'
 output_path = '~/.config/micro/colorschemes/matugen.micro'
+
+[templates.btop]
+input_path = '/home/key/.config/matugen/templates/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
