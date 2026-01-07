@@ -1,0 +1,126 @@
+/**
+ * @name midnight-matugen
+ * @description Midnight Discord with Matugen (Material You) support
+ * @author refact0r + matugen
+ * @version 1.6.2-matugen
+ * @invite nz87hXyvcy
+ * @website https://github.com/refact0r/midnight-discord
+ * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
+ */
+
+/* IMPORTANT:
+ * - Discord MUST be in dark mode
+ * - Disable Vencord:
+ *   - Theme Attributes
+ *   - Force Dark Mode
+ *   - Client Theme Sync
+ */
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+/* =========================
+   Matugen color bindings
+   ========================= */
+:root {
+	/* font */
+	--font: 'figtree';
+
+	/* top left corner text */
+	--corner-text: 'Midnight';
+
+	/* status indicators */
+	--online-indicator: #49672e;
+	--dnd-indicator: #ffb4ab;
+	--idle-indicator: #1e4e4d;
+	--streaming-indicator: #1c3703;
+
+	/* accents */
+	--accent-1: #a0cfcd;
+	--accent-2: #aed18d;
+	--accent-3: #aed18d;
+	--accent-4: #373a33;
+	--accent-5: #aed18d;
+	--mention: #282b24;
+	--mention-hover: #373a33;
+
+	/* text */
+	--text-0: #1c3703;              /* text on accent */
+	--text-1: #e2e3d9;           /* headers */
+	--text-2: #e2e3d9;
+	--text-3: #e2e3d9;              /* main text */
+	--text-4: #c4c8ba;      /* channels/icons */
+	--text-5: #8e9286;                 /* muted */
+
+	/* backgrounds */
+	--bg-1: #324e19;
+	--bg-2: #282b24;
+	--bg-3: #1e211a;
+	--bg-4: #11140e;
+
+	--hover: #373a33;
+	--active: #373a33;
+	--message-hover: #373a33;
+
+	/* spacing */
+	--spacing: 12px;
+
+	/* animations */
+	--list-item-transition: 0.2s ease;
+	--unread-bar-transition: 0.2s ease;
+	--moon-spin-transition: 0.4s ease;
+	--icon-spin-transition: 1s ease;
+
+	/* rounding */
+	--roundness-xl: 22px;
+	--roundness-l: 20px;
+	--roundness-m: 16px;
+	--roundness-s: 12px;
+	--roundness-xs: 10px;
+	--roundness-xxs: 8px;
+
+	/* icons */
+	--discord-icon: none;
+	--moon-icon: block;
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg');
+	--moon-icon-size: auto;
+
+	/* filters */
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4);
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43);
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2);
+}
+
+/* =========================
+   CRITICAL: Midnight → Discord variable bridge
+   ========================= */
+:root {
+	--background-primary: var(--bg-4);
+	--background-secondary: var(--bg-3);
+	--background-tertiary: var(--bg-2);
+	--background-floating: var(--bg-3);
+
+	--text-normal: var(--text-3);
+	--text-muted: var(--text-5);
+	--header-primary: var(--text-1);
+	--header-secondary: var(--text-3);
+
+	--channeltextarea-background: var(--bg-3);
+
+	--interactive-normal: var(--text-4);
+	--interactive-hover: var(--text-1);
+	--interactive-active: var(--accent-2);
+}
+
+/* =========================
+   Selection fixes
+   ========================= */
+.selected_f5eb4b,
+.selected_f6f816 .link_d8bfb3 {
+	color: var(--text-0) !important;
+	background: var(--accent-3) !important;
+}
+
+.selected_f6f816 .link_d8bfb3 * {
+	color: var(--text-0) !important;
+	fill: var(--text-0) !important;
+}
