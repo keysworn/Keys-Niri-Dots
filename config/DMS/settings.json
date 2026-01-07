@@ -295,7 +295,7 @@
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
       "borderEnabled": true,
-      "borderColor": "surfaceText",
+      "borderColor": "secondary",
       "borderOpacity": 1,
       "borderThickness": 1,
       "widgetOutlineEnabled": false,
