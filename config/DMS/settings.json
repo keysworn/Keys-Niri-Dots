@@ -250,11 +250,20 @@
         }
       ],
       "centerWidgets": [
-        "music",
-        "clock",
-        "weather",
         {
           "id": "colorPicker",
+          "enabled": true
+        },
+        {
+          "id": "music",
+          "enabled": true
+        },
+        {
+          "id": "clock",
+          "enabled": true
+        },
+        {
+          "id": "weather",
           "enabled": true
         }
       ],
