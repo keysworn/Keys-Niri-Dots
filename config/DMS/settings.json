@@ -15,7 +15,7 @@
   "nightModeEnabled": false,
   "animationSpeed": 1,
   "customAnimationDuration": 500,
-  "wallpaperFillMode": "Fit",
+  "wallpaperFillMode": "Stretch",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": true,
   "showLauncherButton": true,
