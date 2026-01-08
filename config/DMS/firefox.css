@@ -1,15 +1,15 @@
 @media -moz-pref("userChrome.theme-material") {
   :root {
-    --md-sys-color-primary: #179299;
-    --md-sys-color-surface-tint: #179299;
+    --md-sys-color-primary: #7287fd;
+    --md-sys-color-surface-tint: #7287fd;
     --md-sys-color-on-primary: #ffffff;
-    --md-sys-color-primary-container: #daf3f1;
+    --md-sys-color-primary-container: #e5e8ff;
     --md-sys-color-on-primary-container: #4c4f69;
-    --md-sys-color-secondary: #04a5e5;
+    --md-sys-color-secondary: #8839ef;
     --md-sys-color-on-secondary: #ffffff;
     --md-sys-color-secondary-container: #ccd0da;
     --md-sys-color-on-secondary-container: #4c4f69;
-    --md-sys-color-tertiary: #04a5e5;
+    --md-sys-color-tertiary: #8839ef;
     --md-sys-color-on-tertiary: #ffffff;
     --md-sys-color-tertiary-container: #ccd0da;
     --md-sys-color-on-tertiary-container: #4c4f69;
@@ -29,18 +29,18 @@
     --md-sys-color-scrim: #000000;
     --md-sys-color-inverse-surface: #181825;
     --md-sys-color-inverse-on-surface: #cdd6f4;
-    --md-sys-color-inverse-primary: #94e2d5;
-    --md-sys-color-primary-fixed: #daf3f1;
+    --md-sys-color-inverse-primary: #b4befe;
+    --md-sys-color-primary-fixed: #e5e8ff;
     --md-sys-color-on-primary-fixed: #ffffff;
-    --md-sys-color-primary-fixed-dim: #179299;
+    --md-sys-color-primary-fixed-dim: #7287fd;
     --md-sys-color-on-primary-fixed-variant: #ffffff;
-    --md-sys-color-secondary-fixed: #04a5e5;
+    --md-sys-color-secondary-fixed: #8839ef;
     --md-sys-color-on-secondary-fixed: #ffffff;
-    --md-sys-color-secondary-fixed-dim: #04a5e5;
+    --md-sys-color-secondary-fixed-dim: #8839ef;
     --md-sys-color-on-secondary-fixed-variant: #ffffff;
-    --md-sys-color-tertiary-fixed: #04a5e5;
+    --md-sys-color-tertiary-fixed: #8839ef;
     --md-sys-color-on-tertiary-fixed: #ffffff;
-    --md-sys-color-tertiary-fixed-dim: #04a5e5;
+    --md-sys-color-tertiary-fixed-dim: #8839ef;
     --md-sys-color-on-tertiary-fixed-variant: #ffffff;
     --md-sys-color-surface-dim: #dce0e8;
     --md-sys-color-surface-bright: #e6e9ef;
@@ -68,16 +68,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --md-sys-color-primary: #94e2d5;
-    --md-sys-color-surface-tint: #94e2d5;
+    --md-sys-color-primary: #b4befe;
+    --md-sys-color-surface-tint: #b4befe;
     --md-sys-color-on-primary: #1e1e2e;
-    --md-sys-color-primary-container: #2e5e59;
+    --md-sys-color-primary-container: #3f4481;
     --md-sys-color-on-primary-container: #cdd6f4;
-    --md-sys-color-secondary: #89dceb;
+    --md-sys-color-secondary: #cba6f7;
     --md-sys-color-on-secondary: #1e1e2e;
     --md-sys-color-secondary-container: #313244;
     --md-sys-color-on-secondary-container: #cdd6f4;
-    --md-sys-color-tertiary: #89dceb;
+    --md-sys-color-tertiary: #cba6f7;
     --md-sys-color-on-tertiary: #1e1e2e;
     --md-sys-color-tertiary-container: #313244;
     --md-sys-color-on-tertiary-container: #cdd6f4;
@@ -97,18 +97,18 @@
     --md-sys-color-scrim: #000000;
     --md-sys-color-inverse-surface: #e6e9ef;
     --md-sys-color-inverse-on-surface: #4c4f69;
-    --md-sys-color-inverse-primary: #179299;
-    --md-sys-color-primary-fixed: #2e5e59;
+    --md-sys-color-inverse-primary: #7287fd;
+    --md-sys-color-primary-fixed: #3f4481;
     --md-sys-color-on-primary-fixed: #1e1e2e;
-    --md-sys-color-primary-fixed-dim: #94e2d5;
+    --md-sys-color-primary-fixed-dim: #b4befe;
     --md-sys-color-on-primary-fixed-variant: #1e1e2e;
-    --md-sys-color-secondary-fixed: #89dceb;
+    --md-sys-color-secondary-fixed: #cba6f7;
     --md-sys-color-on-secondary-fixed: #1e1e2e;
-    --md-sys-color-secondary-fixed-dim: #89dceb;
+    --md-sys-color-secondary-fixed-dim: #cba6f7;
     --md-sys-color-on-secondary-fixed-variant: #1e1e2e;
-    --md-sys-color-tertiary-fixed: #89dceb;
+    --md-sys-color-tertiary-fixed: #cba6f7;
     --md-sys-color-on-tertiary-fixed: #1e1e2e;
-    --md-sys-color-tertiary-fixed-dim: #89dceb;
+    --md-sys-color-tertiary-fixed-dim: #cba6f7;
     --md-sys-color-on-tertiary-fixed-variant: #1e1e2e;
     --md-sys-color-surface-dim: #181825;
     --md-sys-color-surface-bright: #45475a;
